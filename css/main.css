@@ -36,6 +36,7 @@ img {
 
 .fact{
     margin: 0;
+    overflow: hidden;
 }
 
 .fact>img{
@@ -44,7 +45,7 @@ img {
 
 .fact>figcaption {
     position: relative;
-    top: -5rem;
+    bottom: 5rem;
     margin: 1rem;
     color: #fff;
     font-family: Georgia, serif; 
@@ -61,7 +62,6 @@ img {
     overflow: hidden;
 }
 
-
 .col {
     margin: 0 0 2rem;
     padding: 0 1rem;
@@ -76,6 +76,7 @@ img {
 }
 
 .heading {
+    margin: 0;
     font-size: 0.9rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -83,6 +84,7 @@ img {
 }
 
 .info {
+    margin: 0;
     font-size: 1rem;
     clear: left;
     display: block;
