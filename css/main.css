@@ -1,4 +1,4 @@
-/*@-moz-viewport { width: device-width; scale: 1; }
+@-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
@@ -34,26 +34,23 @@ img {
   width: 100%;
 }
 
-.fact {
+.fact{
     margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
 
-.fact>img {
-    margin: 0;
-    display: inline-block;
-    z-index: 10;
-    float: top;
+.fact>img{
+    position: relative;
 }
-.fact figcaption{
+
+.fact>figcaption {
+    position: relative;
+    top: -5rem;
     margin: 1rem;
-    /*color: #fff;*/
+    color: #fff;
     font-family: Georgia, serif; 
     font-style: italic;
-    z-index: 100;
 }
-/*
+
 .name {
     margin: 1.5rem 1rem;
     font-size: 1.25rem;
@@ -85,18 +82,8 @@ img {
     color: #888;
 }
 
-.info{
+.info {
     font-size: 1rem;
     clear: left;
-}
-*/
-
-
-.thing {
-    margin: 0;
-    background-image: url(/images/stegosaurus.jpg);
-    
-}
-.text{
- margin: 1rem;   
+    display: block;
 }
