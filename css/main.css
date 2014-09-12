@@ -14,6 +14,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+    background-color: #ddd
 }
 
 *, *:before, *:after {
@@ -23,9 +24,69 @@ html {
 body {
   margin: 0;
   padding: 0;
+
+    background-color: #fff;
+    border-radius: 0.5rem;
 }
 
 img {
   display: block;
   width: 100%;
+}
+
+.fact {
+    margin: 0;
+    padding: 1rem;
+    background-image: url(/images/stegosaurus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 15rem;
+    overflow: visible;
+}
+
+.fact figcaption{
+    margin: 10rem 0 0;
+    width: 100%;
+    color: #fff;
+    font-family: Georgia, serif; 
+    font-style: italic;
+    display: block;
+    position: bottom;
+}
+
+.name {
+    margin: 1.5rem 1rem;
+    font-size: 1.25rem;
+}
+
+.tbl {
+    margin: 0 0 1.5rem;
+    overflow: hidden;
+}
+
+
+.col {
+    margin: 0 0 2rem;
+    padding: 0 1rem;
+    width: 33%;
+    float: left;
+    border-left: solid 1px;
+    border-color: #888;
+}
+
+.col:first-child {
+    border: none;
+}
+
+.heading {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #888;
+}
+
+.info{
+    font-size: 1rem;
+    clear: left;
 }
